@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import AuthContext from './authContext'
+import AuthContext from '../auth/authContext'
 
 function AuthState(props) {
   const [token, setToken] = useState(null);
