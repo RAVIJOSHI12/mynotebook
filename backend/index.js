@@ -7,7 +7,7 @@ const app = express()
 const port = 5000
 
 app.use(cors())
-app.use(express.json())     // middleware to json type application through.
+app.use(express.json())     // middleware 
 
 //Available Routes
 
